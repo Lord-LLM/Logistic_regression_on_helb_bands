@@ -1,0 +1,15 @@
+Best C: 100
+Accuracy: 0.625
+Macro F1: 0.618
+
+              precision    recall  f1-score   support
+
+      Band 1       0.80      0.95      0.87        56
+      Band 2       0.62      0.64      0.63        56
+      Band 3       0.48      0.41      0.44        56
+      Band 4       0.52      0.54      0.53        56
+      Band 5       0.66      0.59      0.62        56
+
+    accuracy                           0.62       280
+   macro avg       0.62      0.62      0.62       280
+weighted avg       0.62      0.62      0.62       280
