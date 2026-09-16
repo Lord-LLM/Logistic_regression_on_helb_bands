@@ -13,12 +13,7 @@ def load_model():
 
 pipeline = load_model()
 
-st.title("🎓 HELB Band Placement Predictor")
-st.caption("DSAIC Club - Supervised ML I demo. Trained on a synthetic dataset modeled on "
-           "HELB's Means Testing Instrument factors, as a teaching example and not an official tool.")
-st.info("Note: HELB announced on 22 Aug 2025 that it dropped the 5-band system for "
-        "individualized need scoring. This demo recreates the earlier, well-documented "
-        "band system as a multi-class classification teaching example.")
+st.title("HELB Band Placement Predictor")
 
 occupations = ["formal_employment", "informal_business", "unemployed", "deceased_both", "deceased_one"]
 orphan_statuses = ["not_orphan", "single_orphan", "double_orphan"]
